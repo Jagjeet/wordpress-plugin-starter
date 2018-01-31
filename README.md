@@ -16,8 +16,6 @@ It is usable as is, but is still a work in progress.
 
 The big outstanding tasks for this are:
 
-* Add CSS/Sass support
-* Add Map support for Javascript
 * Add Minifying
 * Add production build
 * Add React boilerplate?
