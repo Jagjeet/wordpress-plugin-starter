@@ -151,7 +151,7 @@ class WordPress_Plugin_Starter
             'options-general.php',
             'WordPress Plugin Starter Plugin Options',
             'WordPress Starter Plugin',
-            8,
+            'administrator',
             'wordpress-plugin-starter-plugin-options',
             array($this, 'pluginPageOptions')
         );
