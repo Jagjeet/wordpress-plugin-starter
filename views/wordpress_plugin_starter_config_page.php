@@ -45,7 +45,7 @@ foreach($messages as $m) {
     <?php
     wp_nonce_field(
         'wordpress_plugin_starter_config_nonce_action',
-        'wordpress_plugin_starter_config_nonce_field' 
+        'wordpress_plugin_starter_config_nonce_field'
     );
     ?>
     <table class="form-table">
@@ -53,18 +53,18 @@ foreach($messages as $m) {
         <th><label for="dummy-data-id">Dummy Data:</label></th>
         <td><input 
               type="text"
-              name='dummy-data' 
-              id='dummy-data-id' 
+              name='dummy-data'
+              id='dummy-data-id'
               value="<?php echo $this->_plugin_options['wordpress_plugin_starter_dummy_data'];?>" />
         </td>
       </tr>
     </table>
     <p class="submit">
-      <input 
-          type="submit" 
-          name="submit" 
-          id="submit" 
-          class="button button-primary" 
+      <input
+          type="submit"
+          name="submit"
+          id="submit"
+          class="button button-primary"
           value="Save Changes">
     </p>
   </form>
