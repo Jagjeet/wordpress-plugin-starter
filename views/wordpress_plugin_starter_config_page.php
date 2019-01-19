@@ -35,8 +35,8 @@
 ?>
 <div class="wrap">
 <?php
-if (count($messages) > 0) {
-    echo "<p>$messages</p>";
+foreach($messages as $m) {
+    echo "<p>$m</p>";
 }
 ?>
   <h1>WordPressPluginStarter Options</h1>

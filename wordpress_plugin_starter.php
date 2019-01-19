@@ -165,7 +165,7 @@ class WordPress_Plugin_Starter
      *************************************************************************/
     public function pluginPageOptions()
     {
-        $messages = "";
+        $messages = array();
 
         if (isset($_POST['dummy-data'])) {
             // Check if our nonce is set.
@@ -186,7 +186,7 @@ class WordPress_Plugin_Starter
                 return;
             }
 
-            $messages = "Options Saved!";
+            array_push($messages, "Options Saved!");
 
             $this->_plugin_options = get_option('wordpress_plugin_starter_options');
 
